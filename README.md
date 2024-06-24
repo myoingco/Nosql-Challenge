@@ -17,7 +17,7 @@ The UK Food Standards Agency evaluates various establishments across the United 
 Prior to execution, you must have Jupyter Notebook. You must also have the necessary Starter Code files downloaded.
 
 ## Build Process
-###Part 1: Database and Jupyter Notebook Set Up
+### Part 1: Database and Jupyter Notebook Set Up
 Use NoSQL_setup_starter.ipynb for this section of the challenge.
 
 1) Import the data provided in the establishments.json file from your Terminal. Name the database uk_food and the collection establishments. Copy the text you used to import your data from your Terminal to a markdown cell in your notebook.
@@ -33,7 +33,7 @@ Use NoSQL_setup_starter.ipynb for this section of the challenge.
     - Find and display one document in the establishments collection using find_one and display with pprint.
 5) Assign the establishments collection to a variable to prepare the collection for use.
 
-###Part 2: Update the Database
+### Part 2: Update the Database
 Use NoSQL_setup_starter.ipynb for this section of the challenge.
 
 The magazine editors have some requested modifications for the database before you can perform any queries or analysis for them. Make the following changes to the establishments collection:
@@ -80,7 +80,7 @@ The magazine editors have some requested modifications for the database before y
     - Use update_many to convert latitude and longitude to decimal numbers.
     - Use update_many to convert RatingValue to integer numbers.
 
-###Part 3: Exploratory Analysis
+### Part 3: Exploratory Analysis
 Eat Safe, Love has specific questions they want you to answer, which will help them find the locations they wish to visit and avoid.
 
 Use NoSQL_analysis_starter.ipynb for this section of the challenge.
@@ -128,4 +128,5 @@ Unless otherwise stated, for each question:
 [Xpert Learning Assistant](https://bootcampspot.instructure.com/courses/5057/external_tools/313)
 
 [UK Food Standards Agency](https://www.food.gov.uk/). (2022). UK food hygiene rating data API. [Link](https://ratings.food.gov.uk/open-data/en-GBLinks). Contains public sector information licensed under the [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+
 Accessed Sept 9, 2022 and Sept 12, 2022 with the establishment settings as follows: longitude=51.5072, latitude=-0.1276, maxdistancelimit=4567, pagesize=10000, sortoptionkey=distance, pagenumber=(1,2,3,4,5,6,7,8).
